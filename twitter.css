@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+
+
+.grid-layout > .navigation{
+    grid-area: nav;
+}
+
+.grid-layout > .main{
+    grid-area: main;
+}
+
+.grid-layout > .left-option{
+    grid-area: left-option
+}
+
+.grid-layout > .right-option{
+    grid-area: right-option;
+}
+
+.grid-layout{
+    display: grid;
+    max-width:100%;
+    height:0px;
+    grid-template-areas: "left-option nav nav"
+                         "left-option main right-option";
+    grid-template-rows:50px auto;
+    grid-template-columns: 402px 1fr 400px;
+}
+
+.navigation{
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.left-option{
+    border-right: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+/* #E5E7EB */
+
+.main{
+    border-right: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.right-option{
+    border-bottom: 1px solid #E5E7EB;
+}
+
+/* left options */
+
+.left-container{
+    list-style-type: none;
+    font-family: "-apple-system, BlinkMacSystemFont";
+    font-size: 23px;
+    font-weight:700;
+    padding-left: 136px;
+    margin: 0;
+    display: inline-block;
+}
+
+.options{
+    padding: 15px;
+    margin-top: 3px;
+
+}
+
+.options:hover{
+    background-color: #DBEAFE;    ;
+    color: rgb(29, 161, 242);
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.fa-twitter{
+    color: rgb(29, 161, 242);
+    font-size: 28px;
+}
+
+.fa-twitter:hover{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.twi{
+    /* padding-right: 20px; */
+    font-size: 25px;
+}
+
+.fa-home{
+    font-size: 18px;
+}
+
+.fa-envelope{
+    font-size: 21px;
+}
+
+.fa-bookmark{
+    padding-right: 2px;
+}
+
+.fa-align-left{
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: .5px;
+    /* margin-right: 15px; */
+    font-size: 20px;
+}
+
+.fa-align-left:hover{
+    border-color: rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+.fa-ellipsis-h{
+    color:black;
+    border-radius: 50%;
+    padding: .5px;
+    font-size: 17px;
+    border: 2px solid black;
+    margin-left:0;
+    /* margin-right: 15px; */
+}
+
+.fa-ellipsis-h:hover{
+    border-color: rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+}
+
+.list-names{
+    padding-left: 20px;
+    display: inline-block;
+    
+}
+
+.tweet{
+    /* padding:10px 10px 10px 130px; */
+    background-color:rgb(29, 161, 242);
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding:15px 50px;
+    margin:15px 15px 15px 138px;
+    cursor:pointer
+}
+
+
+
