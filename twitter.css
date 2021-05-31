@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
 body{
@@ -27,28 +29,32 @@ body{
     display: grid;
     max-width:100%;
     height:900px;
-    grid-template-areas: "left-option nav nav"
+    grid-template-areas: "left-option nav right-option"
                          "left-option main right-option";
-    grid-template-rows:50px auto;
-    grid-template-columns: 402px 1fr 400px;
+    grid-template-rows:53px auto;
+    grid-template-columns: 402px 1fr 517px;
 }
 
 .navigation{
     border-bottom: 1px solid #E5E7EB;
+    
+
 }
 
 .left-option{
     border-right: 1px solid #E5E7EB;
-    border-bottom: 1px solid #E5E7EB;
+    /* border-bottom: 1px solid #E5E7EB; */
 }
 
 .main{
-    border-right: 1px solid #E5E7EB;
-    border-bottom: 1px solid #E5E7EB;
+    /* border-right: 1px solid #E5E7EB; */
+    /* border-bottom: 1px solid #E5E7EB; */
 }
 
 .right-option{
-    border-bottom: 1px solid #E5E7EB;
+    /* border-bottom: 1px solid #E5E7EB; */
+    border: 1px solid #E5E7EB;
+    position: relative;
 }
 
 /* left options */
@@ -78,16 +84,16 @@ body{
     color: rgb(29, 161, 242);
     border-radius: 40px;
     cursor: pointer;
+    display: inline-block;
 
 }
 
 .logo{
     /* padding-top: 12px; */
 }
-/* .logo:hover{
-    width:25px;
-    height: 25px; 
-}  */
+.logo:hover{
+    /* border-radius: 50%;  */
+} 
 
 .fa-twitter{
     color: rgb(29, 161, 242);
@@ -203,10 +209,294 @@ body{
     font-weight: 900;
 }
 
-.user-details:hover{
-    background-color:black;
+/* right-panel */
+
+
+/* search */
+.search{
+    position: absolute;
+    height: 49px;
+    top: 3px;
+    width: 348px;
+    left: 30px;
+    border-radius: 40px;
+    background-color:#EBEEF0;
+    border-style: none;
+    padding: 5px 58px;
+    color: #9CA3AF;
+    font-size: 15px;
+}
+
+/* treanding block */
+
+.trending{
+    position: relative;
+    margin-top: 63px;
+    margin-left:31px;
+    background-color: #F7F9FA;
+    width: 348px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.trending p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.border{
+    border-bottom:1px solid #E5E7EB;
+}
+
+
+.topics{
+    padding: 8px 18px;
+}
+
+.topics:hover{
+    cursor: pointer;
+    background-color: #D1D5DB;
+}
+
+.heading{
+    font-size: 20px;
+    padding-top: 8px;
+    height: 28px;
+    color: #111827;
+    /* font-family:'Fredoka One'; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.img{
+    position: absolute;
+    top: 70px;
+    left: 268px;
+    width: 63px;
+    height: 63px;
+    border-radius: 10px;
+}
+
+.highlight-one{
+    position: relative;
+    top:3px;
+    font-size: 14px;
+    color:#9CA3AF;
+    word-spacing: 2px;
+}
+
+.one{
+    position: relative;
+    top:2px;
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+/* second block */
+
+.highlight-two{
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-top: 8px;
+}
+
+
+.two{
+    position: relative;
+    top: 5px;
+    color:#9CA3AF;
+}
+
+.twos{
+    position: relative;
+    top: 12px;
+    color:#9CA3AF;
+    font-size:13px ;
+    padding-bottom: 16px;
+}
+
+/* third block */
+
+.highlight-three{
+    font-size: 15px;
+    color:#9CA3AF;
+    word-spacing: 2px;
+    padding-top: 5px;
+}
+
+.three{
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-top: 4px;
+}
+
+.highlight-three Span{
+    font-weight:bold;
+    font-size: 25px;
+    float: right;
+    color: black;
+
+}
+
+.third{
+    color:#9CA3AF;
+    font-size:13px ;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+
+.fourth{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* fifth block */
+
+.highlight-five{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.five{
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: 2px;
+    padding-bottom: 9px;
+}
+
+.cbse{
+    top: 444px;
+    left: 264px;
+    width: 68px;
+    height: 68px;
+}
+
+/* more block */
+
+.more{
+    font-size: 17px;
+    padding: 7px;
+    color: rgb(29, 161, 242);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* chat box */
+
+.chat{
+    position:fixed;
+    bottom: 0;
+    right: 19px;
+    font-size: 20px;
+    height: 20px;
+    font-family:'Fredoka One';
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 350px;
+    box-shadow: black;
+}
+
+.icon{
+    float: right;
+    padding-right: 5px;
+    font-size: 24px;
+    color:rgb(29, 161, 242);
+}
+
+.message-box{
+    padding-right: 18px;
+}
+
+.icon:hover{
     cursor: pointer;
 }
+
+
+/* home */
+
+.home{
+    position: relative;
+    font-weight: bold;
+    font-family:'Archivo Black', sans-serif;
+    bottom: 4px;
+    left: 17px;
+    font-size: 19px;
+}
+
+.main{
+    position: relative;
+}
+
+.photoTweet{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+    width:49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.post{
+    margin-left:80px;
+    margin-top:27px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#6B7280;
+}
+
+.postImg{
+    padding-top: 15px;
+    padding-right: 15px;
+    color:rgb(29, 161, 242);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button{
+    float: right;
+    padding: 10px 16px;
+    border: none;
+    background-color:rgb(29, 161, 242);
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.break{
+    background-color: rgb(247, 249, 250);
+    border-top:1px solid rgb(235, 238, 240);
+    border-bottom:1px solid rgb(235, 238, 240);
+    height: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
