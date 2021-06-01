@@ -516,6 +516,7 @@ button{
     font-weight: bold;
     padding-right: 15px;
     margin-top: -10px;
+    cursor: pointer;
 }
 
 .title{
@@ -525,20 +526,23 @@ button{
 }
 
 .videoContainer{
-height: 210px;
-width: 505px;
-margin-left: 76px;
-border-radius: 17px;
-overflow:hidden;
-cursor: pointer;
+/* height: 210px;
+width: 505px; */
+/* margin-left: 76px; */
+/* border-radius: 17px; */
+/* overflow:hidden; */
+/* cursor: pointer; */
 }
 
 
-/* .video{
-    width:355px;
-    height:200px;
+.video{
+    width:505px;
+    height:210px;
+    object-fit: cover;
+    border-radius: 17px;
     margin-left: 76px;
-} */
+    cursor: pointer;
+}
 
 .likes{
     margin-left: 76px;
@@ -565,7 +569,7 @@ cursor: pointer;
 /* content 2 */
 
 .dc{
-    top: 503px;
+    top: 504px;
     width: 55px;
     height: 55px;
 
@@ -574,7 +578,7 @@ cursor: pointer;
 .batman{
     display: flex;
     width:100px;
-    height: 315px;
+    height: 316px;
     margin-left: 76px;
 }
 
