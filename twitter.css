@@ -52,6 +52,7 @@ body{
 .right-option{
     border: 1px solid #E5E7EB;
     position: relative;
+    
 }
 
 /* left options */
@@ -525,14 +526,14 @@ button{
     margin-top: -12px;
 }
 
-.videoContainer{
-/* height: 210px;
-width: 505px; */
-/* margin-left: 76px; */
-/* border-radius: 17px; */
-/* overflow:hidden; */
-/* cursor: pointer; */
-}
+/* .videoContainer{
+height: 210px;
+width: 505px;
+margin-left: 76px;
+border-radius: 17px;
+overflow:hidden;
+cursor: pointer;
+} */
 
 
 .video{
@@ -548,7 +549,7 @@ width: 505px; */
     margin-left: 76px;
     font-size: 20px;
     color:#9CA3AF;
-    padding-top: 15px;
+    padding-top: 13px;
     padding-bottom: 12px;
 }
 
@@ -598,7 +599,7 @@ cursor: pointer;
 }
 
 .b{
-    padding-right: 55px;
+    padding-right: 60px;
     cursor: pointer;
     }
 
