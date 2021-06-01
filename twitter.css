@@ -178,7 +178,8 @@ body{
     width:40px;
     position: absolute;
     left: 152px;
-    top: 63px;
+    /* top: 63px; */
+    top: 71px;
 
 }
 
@@ -186,17 +187,16 @@ body{
 .username{
     position: absolute;
     font-size: 10px;
-    top: 51px;
+    top: 61px;
     left: 203px;
 }
 
 .username > p{
     font-size: 15px;
-    /* font-weight:500; */
     position: absolute;
     top:17px;
-    color: #9CA3AF;
-    /* color: #6B7280; */
+    /* color: #9CA3AF; */
+    color: #6B7280;
 }
 
 .username > span{
@@ -386,6 +386,45 @@ body{
     letter-spacing: 1px;
 }
 
+/* who to follow */
+
+.whoToFollow{
+    margin-top: 10px;
+}
+
+.follow{
+    position: relative;
+}
+
+.btn{
+    background-color: #F7F9FA;
+    color: rgb(29, 161, 242);
+    border: 1px solid rgb(29, 161, 242);
+    opacity: 1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: -26px;
+    margin-right: 1px;
+}
+
+.userPhotos{
+    position: absolute;
+    top: 9px;
+    left: 17px;
+    width:49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-left: 59px;
+}
+
+.username1{
+    top: -5px;
+    font-size: 15px;
+    margin-left: 59px;
+}
 /* chat box */
 
 .chat{
@@ -570,7 +609,7 @@ cursor: pointer;
 /* content 2 */
 
 .dc{
-    top: 504px;
+    top: 503px;
     width: 55px;
     height: 55px;
 
@@ -602,6 +641,8 @@ cursor: pointer;
     padding-right: 60px;
     cursor: pointer;
     }
+
+
 
 
 
