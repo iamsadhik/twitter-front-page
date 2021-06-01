@@ -434,6 +434,8 @@ body{
     position: relative;
 }
 
+/* upload post */
+
 .photoTweet{
     position: absolute;
     top: 9px;
@@ -480,6 +482,77 @@ button{
     border-bottom:1px solid rgb(235, 238, 240);
     height: 11px;
 }
+
+
+
+/* .video{
+    width:355px;
+    height:200px;
+    margin-left: 76px;
+} */
+
+.likes{
+    margin-left: 76px;
+    font-size: 20px;
+    color:#9CA3AF;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.likes span{
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.m{
+padding-right: 55px;
+cursor: pointer;
+}
+
+.mm{
+    opacity:0.7;
+}
+
+/* content 2 */
+
+.dc{
+    top: 503px;
+    width: 55px;
+    height: 55px;
+
+}
+
+.batman{
+    display: flex;
+    width:100px;
+    height: 315px;
+    margin-left: 76px;
+}
+
+.batman img{
+    margin: 1px;
+    cursor: pointer;
+}
+
+.bat1{
+    border-top-left-radius:17px ;
+    border-bottom-left-radius: 17px;
+}
+
+.bat2{
+    border-top-right-radius:17px ;
+    border-bottom-right-radius: 17px;
+}
+
+.b{
+    padding-right: 55px;
+    cursor: pointer;
+    }
+
+
+
+
+
 
 
 
