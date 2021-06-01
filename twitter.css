@@ -483,6 +483,55 @@ button{
     height: 11px;
 }
 
+/* contents */
+
+/* content 1 */
+
+.marvel{
+    top: 155px;
+}
+
+.marvelName{
+    font-size: 15px;
+    margin-left: 76px;
+    margin-top: 14px;
+}
+
+.marvelSd{
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.marvelId{
+    color: #9CA3AF;
+    word-spacing: 1px;
+    padding-left: 3px;
+}
+
+.dots{
+    float: right;
+    color: #9CA3AF;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 15px;
+    margin-top: -10px;
+}
+
+.title{
+    color:black;
+    opacity: .8;
+    margin-top: -12px;
+}
+
+.videoContainer{
+height: 210px;
+width: 505px;
+margin-left: 76px;
+border-radius: 17px;
+overflow:hidden;
+cursor: pointer;
+}
 
 
 /* .video{
