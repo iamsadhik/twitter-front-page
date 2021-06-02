@@ -225,6 +225,10 @@ body{
     font-size: 15px;
 }
 
+input:focus{
+    outline: none;
+}
+
 /* treanding block */
 
 .trending{
@@ -396,6 +400,30 @@ body{
     position: relative;
 }
 
+/* badge alignment */
+
+.badges{
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    top: 5px;
+    left: 44px;
+    cursor: pointer;
+}
+
+.tony{
+    left: 76px;
+}
+
+.steve{
+    left: 89px;
+    top: 6px;
+}
+
+.blackwidow{
+    left: 112px;
+}
+
 .btn{
     background-color: #F7F9FA;
     color: rgb(29, 161, 242);
@@ -525,10 +553,15 @@ button{
 
 /* contents */
 
+.contents{
+    position: relative;
+}
+
 /* content 1 */
 
 .marvel{
-    top: 155px;
+    /* top: 155px; */
+    top: 0px;
 }
 
 .marvelName{
@@ -543,10 +576,18 @@ button{
 
 }
 
+.badge{
+    position: absolute;
+    width:16px;
+    height: 17px;
+    top: 2px;
+    cursor: pointer;
+}
+
 .marvelId{
     color: #9CA3AF;
     word-spacing: 1px;
-    padding-left: 3px;
+    padding-left: 22px;
 }
 
 .dots{
@@ -609,7 +650,8 @@ cursor: pointer;
 /* content 2 */
 
 .dc{
-    top: 503px;
+    /* top: 503px; */
+    top: -5px;
     width: 55px;
     height: 55px;
 
@@ -641,6 +683,10 @@ cursor: pointer;
     padding-right: 60px;
     cursor: pointer;
     }
+
+    /* twitter verified badge*/
+
+   
 
 
 
